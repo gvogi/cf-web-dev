@@ -1,0 +1,26 @@
+/* Σειρα που πρεπει να μπαινουν οι 
+pseudoclasses του link */
+/* Links Mnenonic: Love  Fear  Hate
+                   link  focus hover */
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:focus {
+    outline: none;
+    background-color: yellow;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+a:active {
+    background-color: green;
+    color: white;
+}

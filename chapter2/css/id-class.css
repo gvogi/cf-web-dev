@@ -1,0 +1,26 @@
+body {
+    background-color: purple;
+}
+
+/* . intead of writing class and the name of the class */
+.aueb-logo {
+    width: 800px;
+    height: auto;
+}
+
+/* # intead of writing id and the name of the id
+NOT TO BE USED DIRECTLY ONLY WITH JAVASCRIPT */
+/* #auebText {
+    color: white;
+    background-color: black;
+} */
+
+p.aueb-Text {
+    color: white;
+    background-color: black;
+}
+
+h1.aueb-text {
+    color: green;
+    background-color: gray;
+}

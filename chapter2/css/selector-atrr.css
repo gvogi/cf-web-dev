@@ -1,0 +1,30 @@
+/* Select h2, p with id attribute set */
+h2[id],
+p[id] {
+    background-color: antiquewhite;
+}
+
+/* Select <a> elements with href-# and then hover */
+a[href="#"]:hover {
+    background-color: red;
+}
+
+/* Select anything that has a class name that starts with "info" */
+*[class^="info"] {
+    background-color: green;
+}
+
+/* Select anything that has a class name that includes "text" */
+*[class*="text"] {
+    background-color: blue;
+}
+
+/* Select anything that has a class name that ends with "title" */
+h2[class$="title"] {
+    font-style: italic;
+}
+
+/*Links that start with "https" end ends with ".gr"*/
+a[href^="https"][href$=".gr"] {
+    color: brown;
+}

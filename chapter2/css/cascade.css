@@ -1,0 +1,19 @@
+/* p {
+    color: red;
+} */
+
+#auebText {
+    color: yellow;
+}
+
+.aueb-text {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+p {
+    color: black !important;
+}

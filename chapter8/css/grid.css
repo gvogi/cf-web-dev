@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 200px; */
+    grid-auto-rows: 100px;
+    /*αν είχαμε τιμή με px θα αντιστοιχούσε στο ύψος*/
+}
+
+div[class^="grid-"] {
+    border: 1px solid red;
+}

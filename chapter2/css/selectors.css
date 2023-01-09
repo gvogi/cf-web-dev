@@ -1,0 +1,27 @@
+/* universal selector (*) */
+* {
+    /* margin: 0px; */
+    margin: 10px 2px;
+    /* 1st value up/down, second right left */
+}
+
+/* .container {
+    background-color: gray;
+} */
+
+.container>h2:first-of-type {
+    font-size: 24px;
+}
+
+.container>p:first-of-type {
+    color: red;
+}
+
+ul>li:first-child {
+    font-weight: bold;
+    /* 400 = normal, 700 = bold */
+}
+
+ul>li:nth-child(3) {
+    color: green;
+}

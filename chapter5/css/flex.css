@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+    /* flex-wrap: wrap; */
+}
+
+div[class^="box"] {
+    width: 50px;
+    height: 100px;
+    /* margin: 0 20px; */
+    margin: 0 20px;
+    color: white;
+    background-color: rgb(31, 120, 120);
+    font-size: 3rem;
+
+}
+
+/* .box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    flex: 1;
+} */
+
+.box1,
+.box3 {
+    flex: initial;
+}
+
+.box1 {
+    /* order: 5; */
+    /* align-self: flex-start; */
+    /* flex: 3; */
+    flex: 1;
+}
+
+.box5 {
+    /* order: 1; */
+    /* align-self: flex-end; */
+    /* flex: 2; */
+}

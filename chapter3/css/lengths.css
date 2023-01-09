@@ -1,0 +1,14 @@
+.header {
+    height: 200px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.aueb-img>img {
+    /* width: auto; */
+    width: 1520px;
+    /*(Επειδή έχω εικόνα με μικρότερη ανάλυση 
+    απο αυτή της οθόνης), θα μπορούσαμε να έχουμε 
+    2 ή 3 εκδοχές της φωτό σε διαφορετικές αναλύσεις*/
+    height: calc(90vh - 200px);
+}

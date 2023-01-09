@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: row; */
+    border: 1px solid black;
+    text-align: center;
+    min-height: 100px;
+}
+
+/* h3 {
+    display: inline-block;
+    margin-right: 125px;
+} */
+
+.container>h3:first-child {
+    color: red;
+}

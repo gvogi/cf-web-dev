@@ -1,0 +1,17 @@
+/* Select all li that are immediate ancestors of ul */
+ul>li {
+    color: blue;
+}
+
+/* Only ul without > selects all the ancestors */
+ul strong {
+    background-color: gray;
+}
+
+ul em {
+    background-color: gainsboro;
+}
+
+h1+p {
+    background-color: green;
+}

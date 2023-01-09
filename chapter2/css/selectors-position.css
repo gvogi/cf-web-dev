@@ -1,0 +1,33 @@
+img {
+    width: 500px;
+    height: auto;
+}
+
+ul a:link {
+    /*pseudoclass a:link*/
+    color: black;
+}
+
+ul>li {
+    border: 1px solid black;
+}
+
+ul>li:first-child {
+    color: green;
+}
+
+ul>li:not(:first-child) {
+    /*not() is a function that says/*
+    /*Choose all li that are not first-child */
+    list-style-type: square;
+}
+
+h1+p {
+    font-size: 22px;
+}
+
+img~h1 {
+    /*Affects all h1 that are siblings 
+    (on the same level) after img*/
+    font-size: 3rem;
+}
